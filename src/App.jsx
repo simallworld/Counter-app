@@ -1,5 +1,5 @@
 import "./App.css";
-import Counter from "./components/Counter/Counter.jsx";
+import Counter from "./Counter.jsx";
 
 function App() {
   return (

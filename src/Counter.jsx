@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 
 const Counter = () => {
@@ -23,13 +24,15 @@ const Counter = () => {
 
   return (
     <>
-      <h3>Counter</h3>
-      <h4>Count: {count}</h4>
-      <button onClick={increment}>Increment</button>
-      <button onClick={decrement}>Decrement</button>
+      <h1 data-testid="count">{count}</h1>
+      <button data-testid="increment" onClick={increment}>
+        Incement
+      </button>
+      <button data-testid="decrement" onClick={decrement}>
+        Decrement
+      </button>
     </>
   );
 };
 
 export default Counter;
-
