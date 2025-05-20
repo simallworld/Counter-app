@@ -3,6 +3,9 @@
 
 Building basic Counter Application and try to test it using Jest land related libraries.
 
+## Deployes Link- 
+https://counter-app-tawny-omega.vercel.app/
+
 ## Steps for Testing in Jest + Dependencies
 
 If you're using Vite for your React project, the process for setting up Jest and @testing-library/react is slightly different because Vite doesn’t come with Jest preconfigured like Create React App does.
