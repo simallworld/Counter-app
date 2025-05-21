@@ -1,9 +1,9 @@
-
 # Counter-app
 
-Building basic Counter Application and try to test it using Jest land related libraries.
+Building basic Counter Application and try to test it using Jest land related libraries. And implemented useQuery for get some data from an api and populated it in the UI.
 
-## Deployes Link- 
+## Deployes Link-
+
 https://counter-app-tawny-omega.vercel.app/
 
 ## Steps for Testing in Jest + Dependencies
@@ -11,6 +11,7 @@ https://counter-app-tawny-omega.vercel.app/
 If you're using Vite for your React project, the process for setting up Jest and @testing-library/react is slightly different because Vite doesn’t come with Jest preconfigured like Create React App does.
 
 ### Step-by-Step Setup for Vite + React + Jest + @testing-library/react
+
 📦 Step 1: Create a Vite React App
 npm create vite@latest my-vite-app -- --template react
 cd my-vite-app
@@ -67,6 +68,7 @@ const Counter = ({ initialCount = 0 }) => {
 const [count, setCount] = useState(initialCount);
 
 return (
+
 <div>
 <h1 data-testid="count">{count}</h1>
 <button data-testid="increment" onClick={() => setCount(count + 1)}>Increment</button>
