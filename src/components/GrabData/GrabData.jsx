@@ -46,7 +46,7 @@ const GrabData = () => {
                   color: "#333",
                 }}
               >
-                <h3 style={{ color: "none" }}>{post.title}</h3>
+                <h3 style={{ color: "#000" }}>{post.title}</h3>
                 <p>{post.body}</p>
               </li>
             ))}
