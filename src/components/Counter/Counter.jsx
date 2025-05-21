@@ -25,11 +25,19 @@ const Counter = () => {
   return (
     <>
       <h1 data-testid="count">{count}</h1>
-      <button data-testid="increment" onClick={increment}>
-        Increment
-      </button>
-      <button data-testid="decrement" onClick={decrement}>
+      <button
+        style={{ marginRight: "5px" }}
+        data-testid="decrement"
+        onClick={decrement}
+      >
         Decrement
+      </button>
+      <button
+        style={{ marginLeft: "5px" }}
+        data-testid="increment"
+        onClick={increment}
+      >
+        Increment
       </button>
     </>
   );
